@@ -2,13 +2,13 @@
     "name": "ezprofile",
     "version": "1.0.0",
     "description": "Kickstart your personal portfolio with Github Api and blog",
-    "homepage": "https://warhammer4000.github.io",
+    "homepage": "https://krishnadaspalode.github.io",
     "private": true,
     "license": "Apache-2.0",
     "author": "arifszn",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arifszn/ezprofile.git"
+        "url": "https://github.com/krishnadaspalode/krishnadaspalode.github.io.git"
     },
     "dependencies": {
         "@craco/craco": "^6.2.0",
