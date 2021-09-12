@@ -32,13 +32,12 @@
         "web-vitals": "^1.0.1"
     },
     "scripts": {
-        
+        "start": "craco start",
+        "build": "craco build",
         "test": "craco test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "main -b gh-pages -d build", 
-        "start": "react-scripts start",
-        "build": "react-scripts build"
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
