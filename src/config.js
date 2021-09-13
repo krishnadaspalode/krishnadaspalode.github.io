@@ -3,7 +3,7 @@ module.exports = {
     github: {
         username: 'krishnadaspalode', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
-        limit: 8, // How many projects to display.
+        limit: 16, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
             projects: [] // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -22,13 +22,14 @@ module.exports = {
     },
     skills: [
         'JavaScript',
-        'AngularJs',
         'Angular',
         'Cordova',
         'Ionic',
+        'HTML',
         'React.js',
         'Jquery',
         'SQL',
+        'Angular.Js',
         'Git',
         'CSS',
         'Bootstrap',
@@ -36,24 +37,28 @@ module.exports = {
     experiences: [
         { 
             company: 'PB Comp Pvt Ltd',
+            url: 'https://www.pbcomp.in/',
             position: 'Senior Consultant',
             from: 'September 2021',
             to: 'Present'
         },
         { 
             company: 'Tata Consultancy Services Pvt Ltd',
+            url: 'https://www.tcs.com/',
             position: 'Senior Software Engineer',
             from: 'October 2019',
             to: 'August 2021'
         },
         { 
             company: 'RapidValue Solutions Pvt Ltd',
+            url: 'https://www.rapidvaluesolutions.com/',
             position: 'Senior Software Engineer',
             from: 'February 2016',
             to: 'August 2019'
         },
         { 
             company: 'CTeBS Pvt Ltd',
+            url: 'http://www.ctebs.com/',
             position: 'Associate Software Engineer',
             from: 'December 2014',
             to: ' February 2016'

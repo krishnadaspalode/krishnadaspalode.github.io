@@ -59,7 +59,9 @@ const Experience = () => {
                                                     <div>
                                                         <div className="block justify-between">
                                                             <div className="font-medium opacity-70">
-                                                                {experience.company}
+                                                                <a href={experience.url} target="_blank" className="link-primary">
+                                                                    {experience.company}
+                                                                </a>
                                                             </div>
                                                             <div className="opacity-50">
                                                                 {experience.from} - {experience.to}
