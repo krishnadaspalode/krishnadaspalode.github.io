@@ -106,7 +106,7 @@ module.exports = {
         id: '' // UA-XXXXXXXXX-X | G-XXXXXXXXXX
     },
     themeConfig: {
-        default: 'dark',
+        default: 'cupcake',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
