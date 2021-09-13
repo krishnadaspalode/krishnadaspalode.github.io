@@ -34,6 +34,17 @@ module.exports = {
         'CSS',
         'Bootstrap',
     ],
+    tools: [
+        'npm',
+        'Gradle',
+        'Gulp',
+        'Android Studio',
+        'VS Code',
+        'XCode',
+        'jDeveloper',
+        'Eclipse',
+        'SQL Developer'
+    ],
     experiences: [
         { 
             company: 'PB Comp Pvt Ltd',

@@ -10,6 +10,7 @@ import { setLoading } from "./store/slices/loadingSlice";
 import { setProfile } from "./store/slices/profileSlice";
 import Details from "./components/Details";
 import Skill from "./components/Skill";
+import Tools from "./components/Tools";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Project from "./components/Project";
@@ -150,6 +151,7 @@ function App() {
                                             <AvatarCard />
                                             <Details />
                                             <Skill />
+                                            <Tools />
                                             <Experience />
                                             <Education />
                                         </div>

@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import config from "../config";
-import { GoPrimitiveDot } from 'react-icons/go';
+import { GoClock } from 'react-icons/go';
 import { skeleton } from "../helpers/utils";
 
 const Experience = () => {
@@ -55,11 +55,11 @@ const Experience = () => {
                                         config.experiences.map((experience, index) => (
                                             <li key={index}>
                                                 <span>
-                                                    <GoPrimitiveDot className="mr-2 opacity-40"/>
+                                                    <GoClock className="mr-2 opacity-40"/>
                                                     <div>
                                                         <div className="block justify-between">
                                                             <div className="font-bold opacity-70">
-                                                                <a href={experience.url} target="_blank" className="link-primary">
+                                                                <a href={experience.url} target="_blank" rel="noreferrer" className="link-primary">
                                                                     {experience.company}
                                                                 </a>
                                                             </div>

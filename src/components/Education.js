@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import config from "../config";
-import { GoPrimitiveDot } from 'react-icons/go';
+import { GoClock } from 'react-icons/go';
 import { skeleton } from "../helpers/utils";
 
 const Education = () => {
@@ -57,7 +57,7 @@ const Education = () => {
                                         config.education.map((item, index) => (
                                             <li key={index}>
                                                 <span>
-                                                    <GoPrimitiveDot className="mr-2 opacity-40"/>
+                                                    <GoClock className="mr-2 opacity-40"/>
                                                     <div>
                                                         <div className="block justify-between">
                                                             <div className="font-medium opacity-70">
