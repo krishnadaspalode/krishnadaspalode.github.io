@@ -24,6 +24,13 @@ const Skill = () => {
                 (typeof config.skills !== 'undefined' && config.skills.length !== 0) && (
                     <div className="card shadow-lg compact bg-base-100">
                         <div className="card-body">
+                            <div className="pb-0-important mx-5">
+                                <h5 className="card-title text-lg">
+                                    {loading ? skeleton({ width: 'w-32', height: 'h-8' }) : (
+                                        <span className="opacity-70">Tech Stacks</span>
+                                    )}
+                                </h5>
+                            </div>
                             <div className="p-3 flow-root">
                                 <div className="-m-1 flex flex-wrap">
                                     {
