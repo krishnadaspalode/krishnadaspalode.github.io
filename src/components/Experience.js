@@ -58,7 +58,7 @@ const Experience = () => {
                                                     <GoPrimitiveDot className="mr-2 opacity-40"/>
                                                     <div>
                                                         <div className="block justify-between">
-                                                            <div className="font-medium opacity-70">
+                                                            <div className="font-bold opacity-70">
                                                                 <a href={experience.url} target="_blank" className="link-primary">
                                                                     {experience.company}
                                                                 </a>
