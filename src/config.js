@@ -47,18 +47,11 @@ module.exports = {
     ],
     experiences: [
         { 
-            company: 'PB Comp Pvt Ltd',
-            url: 'https://www.pbcomp.in/',
-            position: 'Senior Consultant',
-            from: 'September 2021',
-            to: 'Present'
-        },
-        { 
             company: 'Tata Consultancy Services Pvt Ltd',
             url: 'https://www.tcs.com/',
             position: 'Senior Software Engineer',
             from: 'October 2019',
-            to: 'August 2021'
+            to: 'Present'
         },
         { 
             company: 'RapidValue Solutions Pvt Ltd',
